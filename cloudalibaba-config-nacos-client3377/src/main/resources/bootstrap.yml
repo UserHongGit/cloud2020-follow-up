@@ -1,0 +1,20 @@
+#nacos配置
+server:
+  port: 3377
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848   #Nacos服务注册中心地址
+      config:
+        server-addr: localhost:8848  #Nacos作为配置中心地址
+        file-extension: yaml  #指定yaml格式的配置
+        group: DEV_GROUP
+        namespace:  4312eaf8-b4ae-421f-a8c3-129e5cfb52ff
+
+#公式为: ${spring.application.name}-${spring.profiles.active}.${file-extension}
+#总结下来就是,dataid就是:
+# nacos-config-client-dev.yml

@@ -1,0 +1,60 @@
+2020-10-13 15:19:04,501 INFO DEFAULT_GROUP@@seta-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-13 15:19:04,504 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-order-service, ips: 10.254.136.166:2001_true,
+
+2020-10-13 15:19:07,427 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.254.136.166:8091:unknown:default_1.0_true_false_default]
+
+2020-10-13 15:19:07,427 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 10.254.136.166:8091_true,
+
+2020-10-13 15:19:13,950 INFO DEFAULT_GROUP@@seta-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-13 15:19:13,950 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-order-service, ips: 
+
+2020-10-13 15:19:35,055 INFO DEFAULT_GROUP@@seta-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-13 15:19:35,055 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-order-service, ips: 10.254.136.166:2001_true,
+
+2020-10-13 15:19:35,055 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-order-service, ips: 10.254.136.166:2001_true,
+
+2020-10-13 15:38:24,968 INFO DEFAULT_GROUP@@seta-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-13 15:38:24,968 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-order-service, ips: 
+
+2020-10-13 15:38:49,827 INFO DEFAULT_GROUP@@seta-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-13 15:38:49,827 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-order-service, ips: 10.254.136.166:2001_true,
+
+2020-10-13 15:38:49,827 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-order-service, ips: 10.254.136.166:2001_true,
+
+2020-10-13 15:40:03,164 INFO DEFAULT_GROUP@@seta-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-13 15:40:03,165 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-order-service, ips: 
+
+2020-10-13 15:52:03,112 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.254.136.166:8091:unknown:default_1.0_true_false_default]
+
+2020-10-13 15:52:03,114 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 10.254.136.166:8091_true,
+
+2020-10-13 15:52:52,962 INFO {POS} {IP-DISABLED} valid: 10.254.136.166:8091@default@DEFAULT_GROUP@@serverAddr, region: unknown, msg: client timeout after 15000, last beat: 1602575556951
+
+2020-10-13 15:53:08,057 INFO DEFAULT_GROUP@@serverAddr {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.254.136.166:8091:unknown:default_1.0_false_false_default]
+
+2020-10-13 15:53:08,057 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@serverAddr, ips: 
+
+2020-10-13 15:53:25,932 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.254.136.166:8091:unknown:default_1.0_true_false_default]
+
+2020-10-13 15:53:25,932 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 10.254.136.166:8091_true,
+
+2020-10-13 16:26:31,330 INFO {POS} {IP-DISABLED} valid: 10.254.136.166:8091@default@DEFAULT_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1602577571729
+
+2020-10-13 16:26:41,124 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 10.254.136.166:8091_false,
+
+2020-10-13 16:26:45,140 INFO service: DEFAULT_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.254.136.166:8091@default, region: unknown, msg: client beat ok
+
+2020-10-13 16:45:21,525 INFO {POS} {IP-DISABLED} valid: 10.254.136.166:8091@default@DEFAULT_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1602578705856
+
+2020-10-13 16:45:32,011 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 10.254.136.166:8091_false,
+
+2020-10-13 16:45:36,069 INFO service: DEFAULT_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.254.136.166:8091@default, region: unknown, msg: client beat ok
+
+2020-10-13 16:47:46,238 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 10.254.136.166:8091_true,
+

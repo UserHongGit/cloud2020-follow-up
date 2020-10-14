@@ -1,0 +1,152 @@
+2020-10-14 10:08:56,118 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.254.136.166:8091:unknown:default_1.0_true_false_default]
+
+2020-10-14 10:08:56,119 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 10.254.136.166:8091_true,
+
+2020-10-14 10:31:09,162 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:31:09,162 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 10.254.136.166:2001_true,
+
+2020-10-14 10:34:24,964 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:34:24,964 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 
+
+2020-10-14 10:46:43,939 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:46:43,939 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 10.254.136.166:2001_true,
+
+2020-10-14 10:49:21,241 INFO DEFAULT_GROUP@@seta-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:49:21,241 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-account-service, ips: 10.254.136.166:2003_true,
+
+2020-10-14 10:53:13,751 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:53:13,751 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 
+
+2020-10-14 10:53:15,189 INFO DEFAULT_GROUP@@seta-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:53:15,189 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-account-service, ips: 
+
+2020-10-14 10:54:48,603 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:54:48,603 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 10.254.136.166:2001_true,
+
+2020-10-14 10:55:49,723 INFO DEFAULT_GROUP@@seta-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:55:49,723 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-account-service, ips: 10.254.136.166:2003_true,
+
+2020-10-14 10:57:03,052 INFO DEFAULT_GROUP@@seta-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:57:03,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-account-service, ips: 
+
+2020-10-14 10:57:05,690 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:57:05,690 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 
+
+2020-10-14 10:59:33,580 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:59:33,580 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 10.254.136.166:2001_true,
+
+2020-10-14 10:59:47,526 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 10:59:47,526 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 
+
+2020-10-14 11:00:03,199 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 11:00:03,199 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 10.254.136.166:2001_true,
+
+2020-10-14 12:47:22,717 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 10.254.136.166:8091_true,
+
+2020-10-14 12:49:20,140 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.254.136.166:8083:unknown:default_1.0_true_false_default]
+
+2020-10-14 12:49:20,140 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 10.254.136.166:8091_true,10.254.136.166:8083_true,
+
+2020-10-14 12:51:00,727 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 12:51:00,727 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 
+
+2020-10-14 12:51:17,869 INFO DEFAULT_GROUP@@seata-order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 12:51:17,869 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-order-service, ips: 10.254.136.166:2001_true,
+
+2020-10-14 12:52:46,113 INFO DEFAULT_GROUP@@seta-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 12:52:46,113 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-account-service, ips: 10.254.136.166:2003_true,
+
+2020-10-14 12:52:58,053 INFO DEFAULT_GROUP@@seta-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 12:52:58,054 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-account-service, ips: 
+
+2020-10-14 13:50:10,881 INFO DEFAULT_GROUP@@seta-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 13:50:10,882 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-account-service, ips: 10.254.136.166:2003_true,
+
+2020-10-14 13:52:40,240 INFO DEFAULT_GROUP@@seta-storage-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 13:52:40,240 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-storage-service, ips: 10.254.136.166:2002_true,
+
+2020-10-14 13:59:43,095 INFO DEFAULT_GROUP@@seta-account-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 13:59:43,095 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-account-service, ips: 
+
+2020-10-14 14:00:01,497 INFO DEFAULT_GROUP@@seta-account-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 14:00:01,497 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-account-service, ips: 10.254.136.166:2003_true,
+
+2020-10-14 14:01:13,614 INFO DEFAULT_GROUP@@seta-storage-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 14:01:13,614 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-storage-service, ips: 
+
+2020-10-14 14:01:32,937 INFO DEFAULT_GROUP@@seta-storage-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 14:01:32,937 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-storage-service, ips: 10.254.136.166:2002_true,
+
+2020-10-14 14:12:48,985 INFO {POS} {IP-DISABLED} valid: 10.254.136.166:8091@default@DEFAULT_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1602655949618
+
+2020-10-14 14:13:04,185 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.254.136.166:8091:unknown:default_1.0_false_false_default]
+
+2020-10-14 14:13:04,185 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 10.254.136.166:8083_true,
+
+2020-10-14 14:21:14,269 INFO {POS} {IP-DISABLED} valid: 10.254.136.166:8083@default@DEFAULT_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1602656457651
+
+2020-10-14 14:21:18,474 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-NEW} cluster: testCluster, new ips size: 1, content: [10.254.136.166:8091:unknown:testCluster_1.0_true_false_testCluster]
+
+2020-10-14 14:21:18,474 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 10.254.136.166:8083_false,10.254.136.166:8091_true,
+
+2020-10-14 14:21:29,272 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.254.136.166:8083:unknown:default_1.0_false_false_default]
+
+2020-10-14 14:21:29,272 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 10.254.136.166:8091_true,
+
+2020-10-14 14:21:57,440 INFO DEFAULT_GROUP@@seta-storage-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 14:21:57,440 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-storage-service, ips: 
+
+2020-10-14 14:22:13,893 INFO DEFAULT_GROUP@@seta-storage-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 14:22:13,893 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-storage-service, ips: 10.254.136.166:2002_true,
+
+2020-10-14 14:23:51,770 INFO DEFAULT_GROUP@@seta-storage-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 14:23:51,770 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-storage-service, ips: 
+
+2020-10-14 14:24:09,716 INFO DEFAULT_GROUP@@seta-storage-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 14:24:09,716 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-storage-service, ips: 10.254.136.166:2002_true,
+
+2020-10-14 14:25:24,306 INFO {POS} {IP-DISABLED} valid: 10.254.136.166:8091@testCluster@DEFAULT_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1602656708595
+
+2020-10-14 14:25:39,314 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: testCluster, dead ips size: 1, content: [10.254.136.166:8091:unknown:testCluster_1.0_false_false_testCluster]
+
+2020-10-14 14:25:39,314 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 
+
+2020-10-14 14:26:02,806 INFO DEFAULT_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.254.136.166:8091:unknown:default_1.0_true_false_default]
+
+2020-10-14 14:26:02,806 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-server, ips: 10.254.136.166:8091_true,
+
+2020-10-14 14:26:06,090 INFO DEFAULT_GROUP@@seta-storage-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.254.136.166:2002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 14:26:06,090 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-storage-service, ips: 
+
+2020-10-14 14:26:22,289 INFO DEFAULT_GROUP@@seta-storage-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.254.136.166:2002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-14 14:26:22,290 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seta-storage-service, ips: 10.254.136.166:2002_true,
+

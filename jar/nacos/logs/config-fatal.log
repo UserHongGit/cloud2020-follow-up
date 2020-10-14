@@ -1,0 +1,6 @@
+2020-10-14 10:08:10,693 WARN [master-db] jdbc:mysql://localhost:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2020-10-14 10:08:10,975 WARN useAddressServer:true
+
+2020-10-14 10:08:11,057 WARN isQuickStart:false
+

@@ -1,0 +1,1463 @@
+2020-10-13 15:18:58,421 INFO Starting Nacos v1.1.4 on DESKTOP-BC8E29H with PID 3908 (D:\StudyIdea\cloud2021\jar\nacos\target\nacos-server.jar started by J in D:\StudyIdea\cloud2021\jar\nacos\bin)
+
+2020-10-13 15:18:58,424 INFO The following profiles are active: standalone
+
+2020-10-13 15:19:00,004 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$82d219f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:19:00,104 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:19:00,106 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@609e8838' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:19:00,107 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$a7a6bca3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:19:00,111 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:19:01,451 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-10-13 15:19:01,475 INFO Starting service [Tomcat]
+
+2020-10-13 15:19:01,476 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-10-13 15:19:01,485 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\XShell\;C:\Python27\;C:\Python27\Scripts;D:\OracleHome\product\11.2.0\dbhome_3\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\JDK8\bin;D:\Git\Git\cmd;C:\Users\J\AppData\Local\Android\Sdk\tools;C:\Users\J\AppData\Local\Android\Sdk\platform-tools;"D:\tomcat9\bin;D:\tomcat9\lib";C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\J\.gradle\wrapper\dists\gradle-4.4-all\9br9xq1tocpiv8o6njlyu5op1\gradle-4.4\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\TortoiseGit\bin;C:\Users\J\AppData\Local\Microsoft\WindowsApps;D:\Download\mysql-5.7.29-winx64\bin;D:\VSCode\Microsoft VS Code\bin;C:\Users\J\AppData\Roaming\npm;D:\SSH;.]
+
+2020-10-13 15:19:01,556 INFO Initializing Spring embedded WebApplicationContext
+
+2020-10-13 15:19:01,556 INFO Root WebApplicationContext: initialization completed in 3083 ms
+
+2020-10-13 15:19:02,111 INFO Use Mysql as the driver
+
+2020-10-13 15:19:03,242 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-10-13 15:19:03,479 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-10-13 15:19:03,790 INFO Creating filter chain: Ant [pattern='/'], []
+
+2020-10-13 15:19:03,790 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2020-10-13 15:19:03,791 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2020-10-13 15:19:03,792 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2020-10-13 15:19:03,792 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2020-10-13 15:19:03,792 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2020-10-13 15:19:03,793 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2020-10-13 15:19:03,793 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2020-10-13 15:19:03,794 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2020-10-13 15:19:03,794 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2020-10-13 15:19:03,794 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2020-10-13 15:19:03,795 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2020-10-13 15:19:03,795 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2020-10-13 15:19:03,795 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2020-10-13 15:19:03,796 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2020-10-13 15:19:03,797 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2020-10-13 15:19:03,831 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a7686a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@1951b871, org.springframework.security.web.header.HeaderWriterFilter@3d3ba765, org.springframework.security.web.authentication.logout.LogoutFilter@1ae67cad, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@758a34ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33aeca0b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ba302e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ec3394b, org.springframework.security.web.session.SessionManagementFilter@5d1659ea, org.springframework.security.web.access.ExceptionTranslationFilter@3c989952, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4409e975]
+
+2020-10-13 15:19:03,933 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-10-13 15:19:03,984 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-10-13 15:19:04,069 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-10-13 15:19:04,074 INFO Started Nacos in 7.624 seconds (JVM running for 8.198)
+
+2020-10-13 15:19:04,074 INFO Nacos Log files: D:\StudyIdea\cloud2021\jar\nacos/logs/
+
+2020-10-13 15:19:04,074 INFO Nacos Conf files: D:\StudyIdea\cloud2021\jar\nacos/conf/
+
+2020-10-13 15:19:04,075 INFO Nacos Data files: D:\StudyIdea\cloud2021\jar\nacos/data/
+
+2020-10-13 15:19:04,075 INFO Nacos started successfully in stand alone mode.
+
+2020-10-13 15:19:04,321 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-10-13 15:19:04,321 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-10-13 15:19:04,331 INFO Completed initialization in 9 ms
+
+2020-10-13 15:29:02,812 INFO [capacityManagement] start correct usage
+
+2020-10-13 15:29:02,825 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-10-13 15:29:02,930 WARN clearConfigHistory start
+
+2020-10-13 15:39:02,826 INFO [capacityManagement] start correct usage
+
+2020-10-13 15:39:02,828 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-10-13 15:39:02,937 WARN clearConfigHistory start
+
+2020-10-13 15:48:37,709 ERROR read cluster conf fail
+
+java.io.FileNotFoundException: D:\StudyIdea\cloud2021\jar\nacos\conf\cluster.conf (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.alibaba.nacos.core.utils.SystemUtils.readClusterConf(SystemUtils.java:124)
+	at com.alibaba.nacos.core.listener.StartingSpringApplicationRunListener.logClusterConf(StartingSpringApplicationRunListener.java:141)
+	at com.alibaba.nacos.core.listener.StartingSpringApplicationRunListener.contextPrepared(StartingSpringApplicationRunListener.java:91)
+	at org.springframework.boot.SpringApplicationRunListeners.contextPrepared(SpringApplicationRunListeners.java:60)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.alibaba.nacos.Nacos.main(Nacos.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.PropertiesLauncher.main(PropertiesLauncher.java:593)
+2020-10-13 15:48:37,717 INFO Starting Nacos v1.1.4 on DESKTOP-BC8E29H with PID 19440 (D:\StudyIdea\cloud2021\jar\nacos\target\nacos-server.jar started by J in D:\StudyIdea\cloud2021\jar\nacos\bin)
+
+2020-10-13 15:48:37,718 INFO No active profile set, falling back to default profiles: default
+
+2020-10-13 15:48:38,713 INFO Nacos is starting...
+
+2020-10-13 15:48:39,267 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$fda80cf6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:48:39,341 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:48:39,343 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@609e8838' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:48:39,345 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$227cafa8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:48:39,349 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:48:39,715 INFO Nacos is starting...
+
+2020-10-13 15:48:40,717 INFO Nacos is starting...
+
+2020-10-13 15:48:40,817 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-10-13 15:48:40,832 INFO Initializing ProtocolHandler ["http-nio-8848"]
+
+2020-10-13 15:48:40,842 INFO Starting service [Tomcat]
+
+2020-10-13 15:48:40,842 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-10-13 15:48:40,854 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\J\bin;D:\Git\Git\mingw64\bin;D:\Git\Git\usr\local\bin;D:\Git\Git\usr\bin;D:\Git\Git\usr\bin;D:\Git\Git\mingw64\bin;D:\Git\Git\usr\bin;C:\Users\J\bin;D:\XShell;C:\Python27;C:\Python27\Scripts;D:\OracleHome\product\11.2.0\dbhome_3\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\JDK8\bin;D:\Git\Git\cmd;C:\Users\J\AppData\Local\Android\Sdk\tools;C:\Users\J\AppData\Local\Android\Sdk\platform-tools;D:\tomcat9\bi;D:\tomcat9\lib";C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\J\.gradle\wrapper\dists\gradle-4.4-all\9br9xq1tocpiv8o6njlyu5op1\gradle-4.4\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\TortoiseGit\bin;C:\Users\J\AppData\Local\Microsoft\WindowsApps;D:\Download\mysql-5.7.29-winx64\bin;D:\VSCode\Microsoft VS Code\bin;C:\Users\J\AppData\Roaming\npm;D:\SSH;D:\Git\Git\usr\bin\vendor_perl;D:\Git\Git\usr\bin\core_perl;.]
+
+2020-10-13 15:48:40,942 INFO Initializing Spring embedded WebApplicationContext
+
+2020-10-13 15:48:40,942 INFO Root WebApplicationContext: initialization completed in 3181 ms
+
+2020-10-13 15:48:41,586 INFO Use Mysql as the driver
+
+2020-10-13 15:48:41,718 INFO Nacos is starting...
+
+2020-10-13 15:48:42,444 INFO Starting Nacos v1.1.4 on DESKTOP-BC8E29H with PID 5216 (D:\StudyIdea\cloud2021\jar\nacos\target\nacos-server.jar started by J in D:\StudyIdea\cloud2021\jar\nacos\bin)
+
+2020-10-13 15:48:42,446 INFO The following profiles are active: standalone
+
+2020-10-13 15:48:42,720 INFO Nacos is starting...
+
+2020-10-13 15:48:43,722 INFO Nacos is starting...
+
+2020-10-13 15:48:43,975 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$2e48e78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:48:44,060 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:48:44,062 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@548a24a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:48:44,064 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$27b9312a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:48:44,068 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-13 15:48:44,723 INFO Nacos is starting...
+
+2020-10-13 15:48:45,347 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-10-13 15:48:45,369 INFO Starting service [Tomcat]
+
+2020-10-13 15:48:45,369 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-10-13 15:48:45,378 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\JDK8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\XShell\;C:\Python27\;C:\Python27\Scripts;D:\OracleHome\product\11.2.0\dbhome_3\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\JDK8\bin;D:\Git\Git\cmd;C:\Users\J\AppData\Local\Android\Sdk\tools;C:\Users\J\AppData\Local\Android\Sdk\platform-tools;"D:\tomcat9\bin;D:\tomcat9\lib";C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\J\.gradle\wrapper\dists\gradle-4.4-all\9br9xq1tocpiv8o6njlyu5op1\gradle-4.4\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\TortoiseGit\bin;C:\Users\J\AppData\Local\Microsoft\WindowsApps;D:\Download\mysql-5.7.29-winx64\bin;D:\VSCode\Microsoft VS Code\bin;C:\Users\J\AppData\Roaming\npm;D:\SSH;.]
+
+2020-10-13 15:48:45,449 INFO Initializing Spring embedded WebApplicationContext
+
+2020-10-13 15:48:45,449 INFO Root WebApplicationContext: initialization completed in 2948 ms
+
+2020-10-13 15:48:45,724 INFO Nacos is starting...
+
+2020-10-13 15:48:45,971 INFO Use Mysql as the driver
+
+2020-10-13 15:48:46,725 INFO Nacos is starting...
+
+2020-10-13 15:48:47,039 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-10-13 15:48:47,179 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-10-13 15:48:47,416 INFO Creating filter chain: Ant [pattern='/'], []
+
+2020-10-13 15:48:47,416 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2020-10-13 15:48:47,417 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2020-10-13 15:48:47,420 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2020-10-13 15:48:47,420 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2020-10-13 15:48:47,420 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2020-10-13 15:48:47,421 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2020-10-13 15:48:47,421 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2020-10-13 15:48:47,421 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2020-10-13 15:48:47,421 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2020-10-13 15:48:47,422 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2020-10-13 15:48:47,422 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2020-10-13 15:48:47,422 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2020-10-13 15:48:47,423 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2020-10-13 15:48:47,423 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2020-10-13 15:48:47,423 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2020-10-13 15:48:47,452 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@246f8b8b, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ae67cad, org.springframework.security.web.header.HeaderWriterFilter@43aaf813, org.springframework.security.web.authentication.logout.LogoutFilter@62f68dff, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@278bb07e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c098bb3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@463b4ac8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4351c8c3, org.springframework.security.web.session.SessionManagementFilter@4ba302e0, org.springframework.security.web.access.ExceptionTranslationFilter@5c18016b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@312ab28e]
+
+2020-10-13 15:48:47,516 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-10-13 15:48:47,554 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-10-13 15:48:47,622 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-10-13 15:48:47,626 INFO Started Nacos in 7.26 seconds (JVM running for 7.831)
+
+2020-10-13 15:48:47,626 INFO Nacos Log files: D:\StudyIdea\cloud2021\jar\nacos/logs/
+
+2020-10-13 15:48:47,626 INFO Nacos Conf files: D:\StudyIdea\cloud2021\jar\nacos/conf/
+
+2020-10-13 15:48:47,626 INFO Nacos Data files: D:\StudyIdea\cloud2021\jar\nacos/data/
+
+2020-10-13 15:48:47,627 INFO Nacos started successfully in stand alone mode.
+
+2020-10-13 15:48:47,727 INFO Nacos is starting...
+
+2020-10-13 15:48:48,728 INFO Nacos is starting...
+
+2020-10-13 15:48:49,730 INFO Nacos is starting...
+
+2020-10-13 15:48:50,731 INFO Nacos is starting...
+
+2020-10-13 15:48:51,698 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-10-13 15:48:51,698 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-10-13 15:48:51,706 INFO Completed initialization in 7 ms
+
+2020-10-13 15:48:51,733 INFO Nacos is starting...
+
+2020-10-13 15:48:52,734 INFO Nacos is starting...
+
+2020-10-13 15:48:53,735 INFO Nacos is starting...
+
+2020-10-13 15:48:54,737 INFO Nacos is starting...
+
+2020-10-13 15:48:55,738 INFO Nacos is starting...
+
+2020-10-13 15:48:56,740 INFO Nacos is starting...
+
+2020-10-13 15:48:57,741 INFO Nacos is starting...
+
+2020-10-13 15:48:58,742 INFO Nacos is starting...
+
+2020-10-13 15:48:59,743 INFO Nacos is starting...
+
+2020-10-13 15:49:00,745 INFO Nacos is starting...
+
+2020-10-13 15:49:01,747 INFO Nacos is starting...
+
+2020-10-13 15:49:02,747 INFO Nacos is starting...
+
+2020-10-13 15:49:03,749 INFO Nacos is starting...
+
+2020-10-13 15:49:04,750 INFO Nacos is starting...
+
+2020-10-13 15:49:05,752 INFO Nacos is starting...
+
+2020-10-13 15:49:06,753 INFO Nacos is starting...
+
+2020-10-13 15:49:07,755 INFO Nacos is starting...
+
+2020-10-13 15:49:08,756 INFO Nacos is starting...
+
+2020-10-13 15:49:09,756 INFO Nacos is starting...
+
+2020-10-13 15:49:10,757 INFO Nacos is starting...
+
+2020-10-13 15:49:11,759 INFO Nacos is starting...
+
+2020-10-13 15:49:12,759 INFO Nacos is starting...
+
+2020-10-13 15:49:13,760 INFO Nacos is starting...
+
+2020-10-13 15:49:14,761 INFO Nacos is starting...
+
+2020-10-13 15:49:15,763 INFO Nacos is starting...
+
+2020-10-13 15:49:16,765 INFO Nacos is starting...
+
+2020-10-13 15:49:17,767 INFO Nacos is starting...
+
+2020-10-13 15:49:18,768 INFO Nacos is starting...
+
+2020-10-13 15:49:19,769 INFO Nacos is starting...
+
+2020-10-13 15:49:19,939 WARN Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memoryMonitor' defined in URL [jar:file:/D:/StudyIdea/cloud2021/jar/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.4.jar!/com/alibaba/nacos/config/server/monitor/MemoryMonitor.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService' defined in URL [jar:file:/D:/StudyIdea/cloud2021/jar/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.4.jar!/com/alibaba/nacos/config/server/service/notify/AsyncNotifyService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverListService': Invocation of init method failed; nested exception is java.lang.RuntimeException: cannot get serverlist, so exit.
+
+2020-10-13 15:49:19,942 INFO Stopping service [Tomcat]
+
+2020-10-13 15:49:19,946 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,946 WARN The web application [nacos] appears to have started a thread named [nacos.naming.status.worker] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,947 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,947 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.raft.notifier] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+ com.alibaba.nacos.naming.consistency.persistent.raft.RaftCore$Notifier.run(RaftCore.java:940)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,948 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.DistroConsistencyServiceImpl.load(DistroConsistencyServiceImpl.java:129)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.DistroConsistencyServiceImpl$2.run(DistroConsistencyServiceImpl.java:112)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,948 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,949 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,949 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,950 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.data.syncer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,950 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,951 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,951 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,951 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,952 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,952 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,953 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,953 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,954 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,954 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,954 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,955 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.task.dispatcher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.poll(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.TaskDispatcher$TaskScheduler.run(TaskDispatcher.java:94)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,955 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,956 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.notifier] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+ com.alibaba.nacos.naming.consistency.ephemeral.distro.DistroConsistencyServiceImpl$Notifier.run(DistroConsistencyServiceImpl.java:385)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,956 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,956 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,957 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+ java.net.DualStackPlainDatagramSocketImpl.receive0(Unknown Source)
+ java.net.AbstractPlainDatagramSocketImpl.receive(Unknown Source)
+ java.net.DatagramSocket.receive(Unknown Source)
+ com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:626)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,957 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.push.retransmitter] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,958 WARN The web application [nacos] appears to have started a thread named [nacos.naming.service.worker] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,958 WARN The web application [nacos] appears to have started a thread named [nacos.naming.service.update.processor] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.LinkedBlockingDeque.takeFirst(Unknown Source)
+ java.util.concurrent.LinkedBlockingDeque.take(Unknown Source)
+ com.alibaba.nacos.naming.core.ServiceManager$UpdatedServiceProcessor.run(ServiceManager.java:199)
+ java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+ java.util.concurrent.FutureTask.run(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,959 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,959 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,959 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.timer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,960 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.data.syncer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,960 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.data.syncer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,960 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.data.syncer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,961 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.data.syncer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,961 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.data.syncer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,962 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.data.syncer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,962 WARN The web application [nacos] appears to have started a thread named [com.alibaba.nacos.naming.distro.data.syncer] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+
+2020-10-13 15:49:19,967 INFO Nacos Log files: D:/StudyIdea/cloud2021/jar/nacos/logs/
+
+2020-10-13 15:49:19,967 INFO Nacos Conf files: D:/StudyIdea/cloud2021/jar/nacos/conf/
+
+2020-10-13 15:49:19,967 INFO Nacos Data files: D:/StudyIdea/cloud2021/jar/nacos/data/
+
+2020-10-13 15:49:19,967 ERROR Nacos failed to start, please see D:/StudyIdea/cloud2021/jar/nacos/logs/nacos.log for more details.
+
+2020-10-13 15:49:19,976 INFO 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+2020-10-13 15:49:19,977 ERROR Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memoryMonitor' defined in URL [jar:file:/D:/StudyIdea/cloud2021/jar/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.4.jar!/com/alibaba/nacos/config/server/monitor/MemoryMonitor.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService' defined in URL [jar:file:/D:/StudyIdea/cloud2021/jar/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.4.jar!/com/alibaba/nacos/config/server/service/notify/AsyncNotifyService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverListService': Invocation of init method failed; nested exception is java.lang.RuntimeException: cannot get serverlist, so exit.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1154)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$129/1811044090.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.alibaba.nacos.Nacos.main(Nacos.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.PropertiesLauncher.main(PropertiesLauncher.java:593)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'asyncNotifyService' defined in URL [jar:file:/D:/StudyIdea/cloud2021/jar/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-config-1.1.4.jar!/com/alibaba/nacos/config/server/service/notify/AsyncNotifyService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverListService': Invocation of init method failed; nested exception is java.lang.RuntimeException: cannot get serverlist, so exit.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1308)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1154)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$129/1811044090.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1237)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 28 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverListService': Invocation of init method failed; nested exception is java.lang.RuntimeException: cannot get serverlist, so exit.
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1737)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$129/1811044090.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1237)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 43 common frames omitted
+Caused by: java.lang.RuntimeException: cannot get serverlist, so exit.
+	at com.alibaba.nacos.config.server.service.ServerListService.init(ServerListService.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:307)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:136)
+	... 57 common frames omitted
+2020-10-13 15:52:25,298 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 15:58:46,656 INFO [capacityManagement] start correct usage
+
+2020-10-13 15:58:46,663 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-10-13 15:58:46,781 WARN clearConfigHistory start
+
+2020-10-13 16:08:46,664 INFO [capacityManagement] start correct usage
+
+2020-10-13 16:08:46,667 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-10-13 16:08:46,785 WARN clearConfigHistory start
+
+2020-10-13 16:18:46,669 INFO [capacityManagement] start correct usage
+
+2020-10-13 16:18:46,670 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-10-13 16:18:46,796 WARN clearConfigHistory start
+
+2020-10-13 16:26:21,926 INFO Expired JWT token.
+
+2020-10-13 16:26:21,926 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:26:40,032 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:26:40,032 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:26:45,115 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:26:50,120 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:26:55,133 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:00,140 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:05,145 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:10,151 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:15,156 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:20,162 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:25,165 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:30,171 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:35,176 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:40,181 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:45,188 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:50,192 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:27:55,197 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:00,203 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:05,212 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:10,216 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:15,223 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:20,228 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:25,233 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:30,238 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:35,244 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:40,250 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:45,255 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:46,671 INFO [capacityManagement] start correct usage
+
+2020-10-13 16:28:46,672 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-10-13 16:28:46,798 WARN clearConfigHistory start
+
+2020-10-13 16:28:50,261 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:28:55,272 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:00,277 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:05,284 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:10,288 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:15,295 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:20,300 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:25,307 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:30,319 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:35,324 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:40,331 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:45,336 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:50,344 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:29:55,350 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:00,358 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:05,370 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:10,379 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:15,392 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:20,398 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:25,405 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:30,411 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:35,420 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:40,434 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:45,442 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:50,449 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:30:55,454 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:00,461 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:05,470 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:10,484 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:15,491 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:20,497 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:25,503 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:30,510 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:35,516 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:40,521 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:45,529 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:50,536 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:31:55,543 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:00,548 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:05,551 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:10,557 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:15,563 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:20,569 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:25,575 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:30,579 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:35,584 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:40,593 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:45,598 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:50,603 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:32:55,610 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:00,619 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:05,625 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:10,630 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:15,636 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:20,642 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:25,647 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:30,658 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:35,665 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:40,670 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:45,676 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:50,681 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:33:55,686 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:00,690 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:05,695 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:10,702 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:15,710 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:20,714 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:25,723 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:30,730 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:35,737 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:40,743 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:45,750 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:50,760 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:34:55,765 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:00,769 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:05,773 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:10,779 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:15,784 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:20,788 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:25,794 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:30,802 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:35,807 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:40,813 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:45,821 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:50,825 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:35:55,829 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:00,834 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:05,838 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:10,843 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:15,850 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:20,858 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:25,868 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:30,877 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:35,881 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:40,886 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:45,894 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:50,900 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:36:55,906 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:00,913 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:05,920 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:10,928 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:15,937 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:20,943 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:25,947 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:30,952 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:35,955 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:40,961 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:45,967 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:50,972 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:37:55,978 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:00,983 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:05,994 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:11,003 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:16,016 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:21,022 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:26,029 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:31,032 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:36,036 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:41,043 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:46,048 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:46,675 INFO [capacityManagement] start correct usage
+
+2020-10-13 16:38:46,682 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-10-13 16:38:46,801 WARN clearConfigHistory start
+
+2020-10-13 16:38:51,055 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:38:56,067 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:01,074 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:06,078 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:11,088 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:16,096 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:21,102 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:26,114 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:31,120 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:36,125 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:41,131 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:46,136 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:51,140 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:39:56,144 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:01,150 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:06,155 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:11,160 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:16,164 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:21,169 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:26,177 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:31,188 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:36,201 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:41,206 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:46,213 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:51,217 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:40:56,230 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:01,237 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:06,242 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:11,246 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:16,251 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:21,254 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:26,260 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:29,495 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:31,267 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:36,272 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:41,277 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:46,281 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:51,286 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:41:56,289 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:01,293 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:06,298 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:11,302 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:16,308 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:21,312 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:26,316 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:31,320 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:36,324 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:41,330 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:46,334 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:51,338 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:42:56,343 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:01,348 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:06,352 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:11,361 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:16,366 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:21,371 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:26,376 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:31,387 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:36,392 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:41,396 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:46,400 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:51,406 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:43:56,413 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:01,426 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:06,429 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:11,435 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:16,443 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:21,449 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:26,461 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:31,472 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:36,477 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:41,480 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:46,487 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:51,494 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:44:56,499 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:45:01,504 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:45:06,515 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:45:30,971 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:45:30,972 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:45:36,045 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:45:41,049 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:45:46,055 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:45:51,059 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:45:56,065 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:01,074 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:06,080 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:11,089 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:16,093 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:21,097 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:26,106 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:31,114 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:36,120 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:41,126 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:46,133 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:51,142 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:46:56,147 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:47:01,152 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:47:06,157 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:47:11,166 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:47:16,175 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:47:21,181 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:47:26,186 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:47:31,192 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:47:45,129 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:47:45,129 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:47:50,198 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:47:55,202 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:48:00,208 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:48:05,216 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:48:10,224 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:48:15,230 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:48:20,238 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:48:25,243 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:48:30,247 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:48:35,252 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:48:40,257 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:48:45,265 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-10-13 16:48:46,683 INFO [capacityManagement] start correct usage
+
+2020-10-13 16:48:46,684 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-10-13 16:48:46,804 WARN clearConfigHistory start
+
+2020-10-13 16:48:50,269 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+

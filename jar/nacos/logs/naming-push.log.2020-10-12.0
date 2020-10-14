@@ -1,0 +1,118 @@
+2020-10-12 10:40:44,669 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-10-12 13:45:01,395 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-10-12 13:45:16,857 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-10-12 18:52:11,584 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-10-12 19:44:17,636 INFO DEFAULT_GROUP@@seta-order-service is changed, add it to push queue.
+
+2020-10-12 19:57:26,460 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-10-12 19:57:41,477 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-10-12 19:58:01,493 INFO DEFAULT_GROUP@@serverAddr is changed, add it to push queue.
+
+2020-10-12 19:58:36,202 INFO DEFAULT_GROUP@@seta-order-service is changed, add it to push queue.
+
+2020-10-12 19:59:09,610 INFO DEFAULT_GROUP@@seta-order-service is changed, add it to push queue.
+
+2020-10-12 20:26:24,128 INFO DEFAULT_GROUP@@seta-storage-service is changed, add it to push queue.
+
+2020-10-12 20:28:14,785 INFO DEFAULT_GROUP@@seta-account-service is changed, add it to push queue.
+
+2020-10-12 20:31:02,016 INFO DEFAULT_GROUP@@seta-account-service is changed, add it to push queue.
+
+2020-10-12 20:31:12,125 INFO DEFAULT_GROUP@@seta-storage-service is changed, add it to push queue.
+
+2020-10-12 20:31:12,125 INFO serviceName: DEFAULT_GROUP@@seta-storage-service changed, schedule push for: 10.254.56.143:51252, agent: Nacos-Java-Client:v1.1.1, key: 10.254.56.143,51252,40095665984000
+
+2020-10-12 20:31:12,126 INFO send udp packet: 10.254.56.143,51252,40095665984000
+
+2020-10-12 20:31:12,134 INFO received ack: {"type": "push-ack", "lastRefTime":"40095665984000", "data":""} from: 10.254.56.143:, cost: 51252 ms, unacked: 8, total push: 0
+
+2020-10-12 20:31:34,016 INFO DEFAULT_GROUP@@seta-account-service is changed, add it to push queue.
+
+2020-10-12 20:31:41,903 INFO DEFAULT_GROUP@@seta-storage-service is changed, add it to push queue.
+
+2020-10-12 20:31:41,903 INFO serviceName: DEFAULT_GROUP@@seta-storage-service changed, schedule push for: 10.254.56.143:51252, agent: Nacos-Java-Client:v1.1.1, key: 10.254.56.143,51252,40125443321200
+
+2020-10-12 20:31:41,903 INFO send udp packet: 10.254.56.143,51252,40125443321200
+
+2020-10-12 20:31:41,905 INFO received ack: {"type": "push-ack", "lastRefTime":"40125443321200", "data":""} from: 10.254.56.143:, cost: 51252 ms, unacked: 2, total push: 0
+
+2020-10-12 20:33:44,025 INFO DEFAULT_GROUP@@seta-storage-service is changed, add it to push queue.
+
+2020-10-12 20:33:44,025 INFO serviceName: DEFAULT_GROUP@@seta-storage-service changed, schedule push for: 10.254.56.143:51252, agent: Nacos-Java-Client:v1.1.1, key: 10.254.56.143,51252,40247565735400
+
+2020-10-12 20:33:44,025 INFO send udp packet: 10.254.56.143,51252,40247565735400
+
+2020-10-12 20:33:44,027 INFO received ack: {"type": "push-ack", "lastRefTime":"40247565735400", "data":""} from: 10.254.56.143:, cost: 51252 ms, unacked: 2, total push: 0
+
+2020-10-12 20:33:45,840 INFO DEFAULT_GROUP@@seta-account-service is changed, add it to push queue.
+
+2020-10-12 20:34:13,874 INFO DEFAULT_GROUP@@seta-storage-service is changed, add it to push queue.
+
+2020-10-12 20:34:13,874 INFO serviceName: DEFAULT_GROUP@@seta-storage-service changed, schedule push for: 10.254.56.143:51252, agent: Nacos-Java-Client:v1.1.1, key: 10.254.56.143,51252,40277414258200
+
+2020-10-12 20:34:13,874 INFO send udp packet: 10.254.56.143,51252,40277414258200
+
+2020-10-12 20:34:13,876 INFO received ack: {"type": "push-ack", "lastRefTime":"40277414258200", "data":""} from: 10.254.56.143:, cost: 51252 ms, unacked: 2, total push: 0
+
+2020-10-12 20:34:19,623 INFO DEFAULT_GROUP@@seta-account-service is changed, add it to push queue.
+
+2020-10-12 20:38:34,611 INFO DEFAULT_GROUP@@seta-account-service is changed, add it to push queue.
+
+2020-10-12 20:38:34,611 INFO serviceName: DEFAULT_GROUP@@seta-account-service changed, schedule push for: 10.254.56.143:51252, agent: Nacos-Java-Client:v1.1.1, key: 10.254.56.143,51252,40538151628600
+
+2020-10-12 20:38:34,611 INFO send udp packet: 10.254.56.143,51252,40538151628600
+
+2020-10-12 20:38:34,613 INFO received ack: {"type": "push-ack", "lastRefTime":"40538151628600", "data":""} from: 10.254.56.143:, cost: 51252 ms, unacked: 2, total push: 0
+
+2020-10-12 20:39:05,254 INFO DEFAULT_GROUP@@seta-account-service is changed, add it to push queue.
+
+2020-10-12 20:39:05,254 INFO serviceName: DEFAULT_GROUP@@seta-account-service changed, schedule push for: 10.254.56.143:51252, agent: Nacos-Java-Client:v1.1.1, key: 10.254.56.143,51252,40568794164800
+
+2020-10-12 20:39:05,254 INFO send udp packet: 10.254.56.143,51252,40568794164800
+
+2020-10-12 20:39:05,256 INFO received ack: {"type": "push-ack", "lastRefTime":"40568794164800", "data":""} from: 10.254.56.143:, cost: 51252 ms, unacked: 2, total push: 0
+
+2020-10-12 20:40:15,078 INFO DEFAULT_GROUP@@seta-account-service is changed, add it to push queue.
+
+2020-10-12 20:40:15,078 INFO serviceName: DEFAULT_GROUP@@seta-account-service changed, schedule push for: 10.254.56.143:51252, agent: Nacos-Java-Client:v1.1.1, key: 10.254.56.143,51252,40638618460600
+
+2020-10-12 20:40:15,078 INFO send udp packet: 10.254.56.143,51252,40638618460600
+
+2020-10-12 20:40:15,081 INFO received ack: {"type": "push-ack", "lastRefTime":"40638618460600", "data":""} from: 10.254.56.143:, cost: 51252 ms, unacked: 3, total push: 0
+
+2020-10-12 20:40:44,807 INFO DEFAULT_GROUP@@seta-account-service is changed, add it to push queue.
+
+2020-10-12 20:40:44,807 INFO serviceName: DEFAULT_GROUP@@seta-account-service changed, schedule push for: 10.254.56.143:51252, agent: Nacos-Java-Client:v1.1.1, key: 10.254.56.143,51252,40668347369800
+
+2020-10-12 20:40:44,807 INFO send udp packet: 10.254.56.143,51252,40668347369800
+
+2020-10-12 20:40:44,809 INFO received ack: {"type": "push-ack", "lastRefTime":"40668347369800", "data":""} from: 10.254.56.143:, cost: 51252 ms, unacked: 2, total push: 0
+
+2020-10-12 20:42:41,937 INFO DEFAULT_GROUP@@seta-order-service is changed, add it to push queue.
+
+2020-10-12 20:43:09,315 INFO DEFAULT_GROUP@@seta-order-service is changed, add it to push queue.
+
+2020-10-12 22:30:42,993 INFO DEFAULT_GROUP@@seta-order-service is changed, add it to push queue.
+
+2020-10-12 22:30:43,031 INFO DEFAULT_GROUP@@seta-account-service is changed, add it to push queue.
+
+2020-10-12 22:30:43,031 INFO serviceName: DEFAULT_GROUP@@seta-account-service changed, schedule push for: 10.254.56.143:63680, agent: Nacos-Java-Client:v1.1.1, key: 10.254.56.143,63680,47266571098400
+
+2020-10-12 22:30:43,031 INFO send udp packet: 10.254.56.143,63680,47266571098400
+
+2020-10-12 22:30:43,043 INFO received ack: {"type": "push-ack", "lastRefTime":"47266571098400", "data":""} from: 10.254.56.143:, cost: 63680 ms, unacked: 12, total push: 0
+
+2020-10-12 22:30:43,098 INFO DEFAULT_GROUP@@seta-storage-service is changed, add it to push queue.
+
+2020-10-12 22:30:43,098 INFO serviceName: DEFAULT_GROUP@@seta-storage-service changed, schedule push for: 10.254.56.143:63680, agent: Nacos-Java-Client:v1.1.1, key: 10.254.56.143,63680,47266638745200
+
+2020-10-12 22:30:43,098 INFO send udp packet: 10.254.56.143,63680,47266638745200
+
+2020-10-12 22:30:43,099 INFO received ack: {"type": "push-ack", "lastRefTime":"47266638745200", "data":""} from: 10.254.56.143:, cost: 63680 ms, unacked: 1, total push: 0
+

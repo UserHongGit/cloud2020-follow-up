@@ -1,0 +1,146 @@
+2020-10-09 09:20:55,681 INFO notifyConnectTimeout:200
+
+2020-10-09 09:20:55,682 INFO notifySocketTimeout:8000
+
+2020-10-09 09:20:55,682 INFO isHealthCheck:true
+
+2020-10-09 09:20:55,683 INFO maxHealthCheckFailCount:12
+
+2020-10-09 09:20:55,683 INFO maxContent:10485760
+
+2020-10-09 09:20:56,217 INFO Schema 'NACOS' already exists.
+
+2020-10-09 09:20:56,262 INFO Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,304 INFO Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,324 INFO Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,337 INFO Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,351 INFO Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,364 INFO Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,375 INFO Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,387 INFO Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,400 INFO Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,415 INFO Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,427 INFO Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,438 INFO Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,452 INFO Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,464 INFO Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2020-10-09 09:20:56,526 INFO The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL201002170109260' defined on 'USERS'.
+
+2020-10-09 09:20:56,770 INFO ServerListService address-server port:8848
+
+2020-10-09 09:20:56,770 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-10-09 09:20:56,771 WARN [serverlist] updated to [10.254.89.137]
+
+2020-10-09 09:20:56,848 WARN DumpService start
+
+2020-10-09 09:20:56,851 INFO start clear all config-info.
+
+2020-10-09 09:20:56,857 WARN clear all config-info failed.
+
+2020-10-09 09:20:56,857 WARN clear all config-info-tenant failed.
+
+2020-10-09 09:20:56,925 INFO start clear all config-info-beta.
+
+2020-10-09 09:20:56,925 WARN clear all config-info-beta failed.
+
+2020-10-09 09:20:56,926 WARN clear all config-info-beta-tenant failed.
+
+2020-10-09 09:20:56,938 INFO start clear all config-info-tag.
+
+2020-10-09 09:20:56,939 WARN clear all config-info-tag failed.
+
+2020-10-09 09:20:56,939 WARN clear all config-info-tag-tenant failed.
+
+2020-10-09 17:25:52,443 INFO notifyConnectTimeout:200
+
+2020-10-09 17:25:52,444 INFO notifySocketTimeout:8000
+
+2020-10-09 17:25:52,444 INFO isHealthCheck:true
+
+2020-10-09 17:25:52,444 INFO maxHealthCheckFailCount:12
+
+2020-10-09 17:25:52,444 INFO maxContent:10485760
+
+2020-10-09 17:25:52,444 INFO spring.datasource.platform:mysql
+
+2020-10-09 17:25:53,186 INFO ServerListService address-server port:8848
+
+2020-10-09 17:25:53,186 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-10-09 17:25:53,187 WARN [serverlist] updated to [10.254.89.137]
+
+2020-10-09 17:25:53,269 WARN DumpService start
+
+2020-10-09 17:25:53,271 INFO start clear all config-info.
+
+2020-10-09 17:25:53,277 WARN clear all config-info failed.
+
+2020-10-09 17:25:53,278 WARN clear all config-info-tenant failed.
+
+2020-10-09 17:25:53,305 INFO start clear all config-info-beta.
+
+2020-10-09 17:25:53,305 WARN clear all config-info-beta failed.
+
+2020-10-09 17:25:53,305 WARN clear all config-info-beta-tenant failed.
+
+2020-10-09 17:25:53,318 INFO start clear all config-info-tag.
+
+2020-10-09 17:25:53,318 WARN clear all config-info-tag failed.
+
+2020-10-09 17:25:53,318 WARN clear all config-info-tag-tenant failed.
+
+2020-10-09 18:57:17,113 INFO notifyConnectTimeout:200
+
+2020-10-09 18:57:17,113 INFO notifySocketTimeout:8000
+
+2020-10-09 18:57:17,113 INFO isHealthCheck:true
+
+2020-10-09 18:57:17,113 INFO maxHealthCheckFailCount:12
+
+2020-10-09 18:57:17,114 INFO maxContent:10485760
+
+2020-10-09 18:57:17,114 INFO spring.datasource.platform:mysql
+
+2020-10-09 18:57:17,795 INFO ServerListService address-server port:8848
+
+2020-10-09 18:57:17,795 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-10-09 18:57:17,797 WARN [serverlist] updated to [10.254.89.137]
+
+2020-10-09 18:57:17,867 WARN DumpService start
+
+2020-10-09 18:57:17,869 INFO start clear all config-info.
+
+2020-10-09 18:57:17,874 WARN clear all config-info failed.
+
+2020-10-09 18:57:17,874 WARN clear all config-info-tenant failed.
+
+2020-10-09 18:57:17,939 INFO [all-dump] 1 / 1
+
+2020-10-09 18:57:17,940 INFO start clear all config-info-beta.
+
+2020-10-09 18:57:17,940 WARN clear all config-info-beta failed.
+
+2020-10-09 18:57:17,940 WARN clear all config-info-beta-tenant failed.
+
+2020-10-09 18:57:17,944 INFO start clear all config-info-tag.
+
+2020-10-09 18:57:17,944 WARN clear all config-info-tag failed.
+
+2020-10-09 18:57:17,944 WARN clear all config-info-tag-tenant failed.
+
